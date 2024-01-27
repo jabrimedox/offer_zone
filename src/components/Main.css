@@ -1,0 +1,162 @@
+:root{
+  --primary-color:                #FF7F3F;
+  --secondary-color:              #441c63;
+}
+#our-packs {
+  /* background-color: #f5f5f5; */
+  padding: 80px 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-header h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  /* color: #333; */
+}
+
+.section-header p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+
+
+.centralize{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-features {
+  /* background-color: #f9f9f9; */
+  padding: 80px 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-header h2 {
+  font-size: 36px;
+ 
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 0;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 30%;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  /* background-color: #333; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #888;
+}
+.feature-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon svg {
+  width: 50%;
+  height: 50%;
+  color: var(--primary-color);
+
+}
+
+
+/* whatsapp icon */
+.float{
+  
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+.float .whatsapp-icon{
+  margin-top: 16px;
+  align-items: center;;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  #main-features {
+    padding: 30px 0;
+  }
+
+  .section-header h2 {
+    font-size: 24px;
+  }
+
+  .section-header p {
+    font-size: 14px;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 80%;
+    margin: 20px 0;
+  }
+
+  .feature-icon {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+  }
+
+  .feature h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .feature p {
+    font-size: 12px;
+  }
+}
